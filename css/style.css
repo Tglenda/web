@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+.montserrat-400 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body{font-family: "Montserrat", sans-serif; font-size: 16px; color: #2E2E2E; margin: 0 auto}
+header{width: 100%; height: 60px; background-color:whitesmoke; border-bottom: 1px solid #FFFCE6}
+.menu ul{margin: 0; padding: 0; list-style: none; display: flex}
+.menu{padding-top: 16px}
+.menu ul li a{ text-decoration: none; color: #393838; padding: 10px 30px; border-radius: 20px}
+.menu ul li a:hover{background-color: brown; color: aliceblue}
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:50px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:darkred;
+      text-decoration: none; }
+main{
+	width: 100%; 
+	min-height: 500px
+}
+.text-do{
+	color: darkred
+}
+aside{
+	width: 30%; 
+	padding: 15px; 
+	min-height: 500px
+}
+.content{
+	width: 70%; 
+	padding: 15px; 
+	min-height: 500px
+}
+aside ul{
+	margin: 0; 
+	padding: 0; 
+	list-style: none; 
+	display: flex; 
+	flex-direction: column
+}
+aside ul li a{
+	text-decoration: none; 
+	padding: 10px; 
+	display: block; 
+	color: #666
+}
+aside ul li a:hover{
+	background-color: #A9FFFA;
+	color: brown
+}
+aside ul li{
+	border-bottom: 1px solid #8B8B8B 
+}
+.text-black{
+	color: black; 
+}
+#footer{
+	width: 100%; 
+	min-height: 600px; 
+	background-image: url("../image/Summer drink menu promotion banner template.jpg"); 
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center center
+}
+.shadow{
+	border: 1px solid gray;
+	min-height: 300px;
+	width: 100%;
+	box-shadow: 5px 5px 5px gray;
+	padding: 30px;
+}
+.form-control{
+	padding: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	border-radius: 10px;
+}
+.pt-30{
+	padding-top: 30px
+}
+.gach-chan{
+	border-bottom: 3px solid darkred; 
+	color: darkred; 
+	font-size: 30px; 
+	font-weight: bold
+}
+.btn-fill-primary:hover{
+     background-color:#Ff0;
+    color: darkred
+}
+.btn-fill-primary{border-radius: 10px; padding: 10px 10px; background-color: brown; color: aliceblue; font-size: 20px}
+.logo{padding-top: 5px}
+.gach-chan2{
+	border-bottom: 2px solid darkred
+}
+.text-center a{
+	text-decoration: none;
+	color: cadetblue;
+	font-weight: bold
+}
+.text-center a:hover{
+	padding: 2px;
+	background-color: darkcyan;
+	color: white;
+	border-radius: 10px
+}
+
